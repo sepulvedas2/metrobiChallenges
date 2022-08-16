@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainAppDiv {
+  text-align: center;
+  min-height: 100%;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  height: 8%;
+  justify-content: center;
+}
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 84%;
+}
+.mainRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 81%;
+}
+.sideContent {
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  width: 61%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.relatedRow {
+  width: 100%;
+  height: 19%;
+}
+.footer {
+  width: 100%;
+  justify-content: end;
+  height: 8%;
+}
+.skyBox {
+  background-color: #54D5EB;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+}
+.lilacBox {
+  background-color: #D7C9E3;
+  width: 100%;
+  height: 44.5%;
+  border: 2px solid #fff;
+}
+.mossBox {
+  background-color: #9FC363;
+  width: 100%;
+  height: 55.5%;
+  border: 2px solid #fff;
+}
+.canaryBox {
+  background-color: #F5C632;
+  width: 100%;
+  height: 66.6%;
+  border: 2px solid #fff;
+}
+.carbonBox {
+  background-color: #898989;
+  width: 100%;
+  height: 33.4%;
+  border: 2px solid #fff;
+}
+.forestBox {
+  background-color: #2BB673;
+  float: left;
+  width: 66%;
+  height: 100%;
+  border: 2px solid #fff;
+}
+.roseBox {
+  background-color: #F3CCDE;
+  float: right;
+  width: 34%;
+  height: 100%;
+  border: 2px solid #fff;
+}
+.orangeBox {
+  background-color: #FF8112F0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+}
